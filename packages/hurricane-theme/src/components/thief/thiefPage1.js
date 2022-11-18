@@ -26,35 +26,35 @@ const Hurricane = ({ state, actions }) => {
                 try and figure out the puzzles. You also need to use details from your surroundings. (<strong>it is recommended to play in landscape mode</strong>). <br /><br /><strong>Fun Fact</strong>: The game can be played on one device or everyone can play together
                 on their own device - just click on appropriate link to access game, once you have loaded game you don't need the internet.
                 If you keep the window open gameplay will be saved over a long period of time.<br /><br />
-
+                <div className="wp-block-columns">
+                    <div className="wp-block-column-intro">
+                        <Image className="test" src="https://escapeoutgames.tybeewebdesign.com/wp-content/uploads/2022/02/info.png" />
+                    </div>
+                    <div className="wp-block-column-intro">
+                        <h3>Click on Info bubble for helpful information about game</h3>
+                    </div>
+                </div>
+                <div className="wp-block-columns">
+                    <div className="wp-block-column-intro">
+                        <Image className="test" src="https://escapeoutgames.tybeewebdesign.com/wp-content/uploads/2022/05/diary-50.png" />
+                    </div>
+                    <div className="wp-block-column-intro">
+                        <h3>Clicking on objects will sometimes open a small window with information and sometimes put them in your backpack.</h3>
+                    </div>
+                </div>
+                <div className="wp-block-columns">
+                    <div className="wp-block-column-intro">
+                        <Image className="test" src="https://escapeoutgames.tybeewebdesign.com/wp-content/uploads/2022/04/backpack.png" />
+                    </div>
+                    <div className="wp-block-column-intro">
+                        <h3>If an object is in your backpack it will be highlighted .</h3>
+                    </div>
+                </div>
             </GameDetails>
                     <h2>A Thief is loose at Tybee Oaks!</h2>
                     <h2>Can you Help?</h2>
 
-            <div className="wp-block-columns">
-                <div className="wp-block-column-intro">
-                    <Image className="test" src="https://escapeoutgames.tybeewebdesign.com/wp-content/uploads/2022/02/info.png" />
-                </div>
-                <div className="wp-block-column-intro">
-                    <h3>Click on Info bubble for helpful information about game</h3>
-                </div>
-            </div>
-            <div className="wp-block-columns">
-                <div className="wp-block-column-intro">
-                    <Image className="test" src="https://escapeoutgames.tybeewebdesign.com/wp-content/uploads/2022/05/diary-50.png" />
-                </div>
-                <div className="wp-block-column-intro">
-                    <h3>Clicking on objects will sometimes open a small window with information and sometimes put them in your backpack.</h3>
-                </div>
-            </div>
-            <div className="wp-block-columns">
-                <div className="wp-block-column-intro">
-                    <Image className="test" src="https://escapeoutgames.tybeewebdesign.com/wp-content/uploads/2022/04/backpack.png" />
-                </div>
-                <div className="wp-block-column-intro">
-                    <h3>If an object is in your backpack it will be highlighted .</h3>
-                </div>
-            </div>
+
                     <h4>Only Stop is the Tybean Art & Coffee Bar.</h4>
             <div className="italics">Game is best viewed in landscape mode. Please turn your phone horizontally for gameplay at stops.</div>
                     <Image className="test" src="https://escapeoutgames.tybeewebdesign.com/wp-content/uploads/2022/02/tybean-porch.png" />
