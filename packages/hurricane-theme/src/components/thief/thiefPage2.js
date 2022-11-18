@@ -81,7 +81,7 @@ const Hurricane = ({ state, actions }) => {
                 }
                 <br />
                 <InputText type="text" id="Game1Word3Page1ThiefLetters" value={state.game.game1Word3Page1ThiefGuess.game1Word3Page1ThiefLetters} onChange={ actions.theme.setGame1Word3Page1ThiefLetters}/>
-                (10 Letters - all lowercase)
+                (11 Letters - all lowercase)
                 {
                     state.theme.isGame1Word3Page1ThiefWrong && state.theme.haveGuessedGame1Word3Page1Thief  ? (
                         <span className="red"> Wrong Answer!</span>
@@ -94,7 +94,7 @@ const Hurricane = ({ state, actions }) => {
                 }
                 <br />
                 <InputText type="text" id="Game1Word4Page1ThiefLetters" value={state.game.game1Word4Page1ThiefGuess.game1Word4Page1ThiefLetters} onChange={ actions.theme.setGame1Word4Page1ThiefLetters}/>
-                (6 Letters - all lowercase)
+                (7 Letters - all lowercase)
                 {
                     state.theme.isGame1Word4Page1ThiefWrong && state.theme.haveGuessedGame1Word4Page1Thief  ? (
                         <span className="red"> Wrong Answer!</span>
@@ -461,9 +461,9 @@ padding:30px;
 const NotesHolderBig = styled.div`
   position:absolute;
   top:0;
-  right:20px;
-  width:45vw;
-  max-width: 45vw;
+  right:0;
+  width:95vw;
+  max-width: 95vw;
   background-color:#699A7D;
   opacity: .9;
   height:calc(100vh - 60px);
@@ -471,6 +471,13 @@ const NotesHolderBig = styled.div`
   visibility: ${ props => props.isVisible ? 'visible' : 'hidden'};
   opacity: ${ props => props.isVisible ? .9 : 0};
   transition: visibility 0s, opacity .5s linear;
+`
+const InputTextArea = styled.textarea`
+  width:80vw;
+  border: 1px solid black;
+  height:calc(100vh - 150px);
+  font-size:20px;
+  margin-bottom:5px;
 `
 const SafeHolderBig = styled.div`
   position:absolute;
@@ -861,13 +868,6 @@ const InputText = styled.input`
   width:250px;
   border: 1px solid black;
   height:30px;
-  font-size:20px;
-  margin-bottom:5px;
-`
-const InputTextArea = styled.textarea`
-  width:40wv;
-  border: 1px solid black;
-  height:200px;
   font-size:20px;
   margin-bottom:5px;
 `
