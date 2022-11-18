@@ -26,6 +26,7 @@ const Hurricane = ({ state, actions }) => {
                 try and figure out the puzzles. You also need to use details from your surroundings. (<strong>it is recommended to play in landscape mode</strong>). <br /><br /><strong>Fun Fact</strong>: The game can be played on one device or everyone can play together
                 on their own device - just click on appropriate link to access game, once you have loaded game you don't need the internet.
                 If you keep the window open gameplay will be saved over a long period of time.<br /><br />
+
                 <div className="wp-block-columns">
                     <div className="wp-block-column-intro">
                         <Image className="test" src="https://escapeoutgames.tybeewebdesign.com/wp-content/uploads/2022/02/info.png" />
